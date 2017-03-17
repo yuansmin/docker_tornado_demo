@@ -4,7 +4,7 @@ import tornado.ioloop
 class Main(tornado.web.RequestHandler):
 
     def get(self):
-        self.write("hello world")
+        self.write("hello world\n")
 
 
 if __name__ == '__main__':
